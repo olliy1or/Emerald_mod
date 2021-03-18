@@ -18,7 +18,7 @@ if minetest.get_modpath("3d_armor") then
 	})
 
 	armor:register_armor("emerald:leggings", {
-		description = ("emerald Leggings"),
+		description = ("Emerald Leggings"),
 		inventory_image = "emerald_leggings_inv.png",
 		groups = {armor_legs=1, armor_heal=6, armor_use=100, armor_fire=5},
 		armor_groups = {fleshy=15},
@@ -27,7 +27,7 @@ if minetest.get_modpath("3d_armor") then
 	})
 
 	armor:register_armor("emerald:boots", {
-		description = ("emerald Boots"),
+		description = ("Emerald Boots"),
 		inventory_image = "emerald_boots_inv.png",
 		groups = {armor_feet=1, armor_heal=6, armor_use=100, armor_fire=5, physics_jump=0.5, physics_speed = 1},
 		armor_groups = {fleshy=10},
@@ -36,7 +36,7 @@ if minetest.get_modpath("3d_armor") then
 	})
 
 	armor:register_armor("emerald:shield", {
-		description = ("emerald Shield"),
+		description = ("Emerald Shield"),
 		inventory_image = "emerald_shield_inv.png",
 		groups = {armor_shield=1, armor_heal=6, armor_use=100, armor_fire=3},
 		armor_groups = {fleshy=5},
