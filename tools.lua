@@ -1,6 +1,6 @@
 --sword
 
-minetest.register_tool("emerald:emerald_sword", {
+minetest.register_tool("emerald:sword_emerald", {
 	description = "Emerald Sword",
 	inventory_image = "emerald_sword.png",
 	tool_capabilities = {
